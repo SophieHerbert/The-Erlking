@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\World Interactions\DoorInteraction.cs" />
     <Compile Include="Assets\Scripts\Player\Footsteps.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PortalMechanic.cs" />
     <Compile Include="Assets\Scripts\World Interactions\EventTriggerCollider.cs" />
     <Compile Include="Assets\Scripts\GUIManager.cs" />
     <Compile Include="Assets\Scripts\Player\MouseLook.cs" />
@@ -148,6 +149,7 @@
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\SubpixelMorphologicalAntialiasing.hlsl" />
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\Vulkan.hlsl" />
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Colors.hlsl" />
+    <None Include="Assets\Texture_Me\Ground - Earth and Rocks - Free &apos;Texture A&apos; (Hand-Painted)\Textures\README.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
