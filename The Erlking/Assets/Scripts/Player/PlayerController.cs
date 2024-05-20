@@ -220,6 +220,13 @@ public class PlayerController : MonoBehaviour
         MovementEnabled = false;
     }
 
+    public void MoveCharacter(Transform positionReference)
+    {
+        controller.enabled = false;
+        transform.position = positionReference.position;
+        controller.enabled = true;
+    }
+
     /// <summary>
     /// Logs a formatted debugging messaged to the console, of the warning level specified.
     /// </summary>
