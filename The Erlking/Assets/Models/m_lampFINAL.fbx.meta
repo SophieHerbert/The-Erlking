@@ -3,7 +3,22 @@ guid: 289f7efc21264fe4fae4b8e034e2a162
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lantern Glass
+    second: {fileID: 2100000, guid: 521311bead97b304381451c6c09db14b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lantern Metal
+    second: {fileID: 2100000, guid: b345ff807bd3f634f86a6a83cabf4258, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: closeup-marble-textured-background
+    second: {fileID: 2800000, guid: 9ce4dfc1cc2f90640840e2b8eea64467, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
