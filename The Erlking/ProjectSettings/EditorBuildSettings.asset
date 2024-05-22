@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 8b870ab1a32208e4897a932453ca5076
+  - enabled: 1
+    path: Assets/Scenes/The Erlking Game.unity
+    guid: 00b7eb247995efd4685e79c2106ddf36
   m_configObjects: {}
