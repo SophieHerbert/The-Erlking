@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\FarlandSkies\Demo\Scripts\Player\SmoothMouseLook.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Scripts\World Interactions\ButtonInteraction.cs" />
     <Compile Include="Assets\Scripts\World Interactions\NoteInteraction.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxRotator.cs" />
     <Compile Include="Assets\Scripts\World Interactions\DoorInteraction.cs" />
     <Compile Include="Assets\Scripts\Teleport.cs" />
     <Compile Include="Assets\Scripts\Player\Footsteps.cs" />
@@ -99,15 +101,18 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\PlayerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\sprite muzzle flashes\AnimatedTexture.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxChanger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Flashlight.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\World Interactions\EventTriggerCollider.cs" />
-    <Compile Include="Assets\Main_Menu.cs" />
     <Compile Include="Assets\Scripts\GUIManager.cs" />
+    <Compile Include="Assets\Scripts\Main_Menu.cs" />
     <Compile Include="Assets\Scripts\Player\MouseLook.cs" />
+    <Compile Include="Assets\FarlandSkies\Demo\Scripts\Player\FPSWalkerEnhanced.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\World Interactions\Interactable.cs" />
   </ItemGroup>
@@ -151,6 +156,7 @@
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVODownsample2.compute" />
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScalableAO.hlsl" />
     <None Include="Assets\Polytope Studio\Lowpoly_Village\Sources\Shaders\PT_Buildings_Shader_PBR.shader" />
+    <None Include="Assets\Ultra Emissive Particles Shader\Shaders\ParticleEmmissive.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVO.shader" />
@@ -172,6 +178,7 @@
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\xRLib.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\UrbanNightSky\Readme.txt" />
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\CopyStdFromDoubleWide.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\SineVFX\TranslucentCrystals\Resources\Shaders\Crystal.shader" />
@@ -187,6 +194,7 @@
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Lut2DBaker.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\CopyStd.shader" />
+    <None Include="Assets\Customizable Skybox\Stylized Sky\Shaders\Stylized Sky.shader" />
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MotionBlur.shader" />
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVODownsample1.compute" />
     <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Fog.hlsl" />
