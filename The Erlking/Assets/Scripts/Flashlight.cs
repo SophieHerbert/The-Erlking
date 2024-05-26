@@ -22,6 +22,11 @@ public class Flashlight : MonoBehaviour
         ToggleFlashlight(false);
     }
 
+    public void SetCurrentBatteries(int value)
+    {
+        currentBatteries = value;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -60,5 +65,10 @@ public class Flashlight : MonoBehaviour
             //toggle on IF charge remaining
                 //charge remains if batteries > 0 timer>=0
         }
+    }
+
+    public bool GetCurrentFlashlightStatus()
+    {
+        return (spotlight.enabled);
     }
 }
